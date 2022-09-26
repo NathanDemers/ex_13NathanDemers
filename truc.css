@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "Western";
+    src: url("montague/Montague.ttf");
+ 
+}
 body:hover{
     transition-property: all;
     transition-duration: 2s;
@@ -5,9 +10,20 @@ body:hover{
 }
 
 
+#banniere1{
+    padding: 50px;
+    width: 100%;
+    background:linear-gradient(brown, yellow);
+    text-align: center;
+    font-family: "Western";
+    text-shadow:1px 2px black;
+    font-size: xx-large;
+    transition: 3s ;
+}
 
-
-
+#test:hover #banniere1{
+    transform: skew(180deg, 0);
+    }
 
 
 
