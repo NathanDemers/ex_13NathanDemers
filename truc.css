@@ -1,0 +1,22 @@
+body:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    transform: rotate(360deg);
+}
+
+
+
+
+
+
+
+
+
+body{
+    display: grid;
+    font-size: 200%;
+    grid-area: center;
+    justify-content: center;
+    align-items: center;
+
+}
